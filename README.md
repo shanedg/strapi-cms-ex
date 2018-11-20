@@ -6,9 +6,11 @@ https://github.com/strapi/strapi/
 https://strapi.io/getting-started
 
 ## install
-some issues around node version, so fell back to regular npm using nvm
+NOTE: require node 10.x.x
 
-`nvm use 9.11.2`
+`nvm install 10.13.0 && nvm use 10.13.0`
+
+optionally, `nvm alias default 10.13.0`
 
 `npm install strapi@alpha -g`
 
